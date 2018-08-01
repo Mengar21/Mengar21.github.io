@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="Indexcss.css" type="text/css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script>
+		// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("topnav");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+		if (window.chrome)
+    $("[type=video\\\/mp4]").each(function()
+    {
+        $(this).attr('src', $(this).attr('src').replace(".mp4", "_c.mp4"));
+    });
+	</script>
+	
+	
+<!-- Top navigation bar -->
+<div class="topnav">
+	<div style="float:left;">
+		<!-- Img -->
+	<b><img style="width=60px;height:50px;" src="WTFLOGO.jpg"></b>
+	</div>
+	<!-- links -->
+	  <a href="Index.html">HOME</a>
+	 <a href="Tendents.html">TENDENTS</a>
+	 <a href="WhyTaekwondo.html">WHY TAEKWONDO?</a>
+	 <a href="Belts.html">BELTS</a>
+	<a href="Wyllie.html">WYLLIETAEKWONDO</a>
+	<!--<a href="Fitness.html">FITNESS</a> -->
+	<a href="Personal.html">MY EXPERIANCES</a>
+	<!-- -->
+	  <div class="pattern">
+    <button class="pattbtn">POOMSAE
+      <i class="fa fa-caret-down"></i> 
+    </button>
+    <div class="pattern-content">
+      <a href="WTF.html">WTF</a>
+      <a href="ITF.html">ITF</a>
+      <a href="BBELT.html">BLACKBELT</a>
+    </div>
+</div>
+	<!-- Search bar -->
+	<input type="text" placeholder="Search">
+  </div>
+	<!-- End of top nav -->
+		</head>
+	<body background="TaekwondoBackground.jpg">
+	<div style="width:30%;float:left;display:block;height:1000px;"></div>
+		<!-- MAIN -->
+		<div style="width:40%;float:left;overflow:visible;"><h1>My Personal Taekwondo Page</h1><br><br><h3>About Me</h3>
+			<p>I have been doing taekwondo for five and a half years since 2013. I have been training twice a week at dural squash center and bush school every saturday and thursday.I am currently 1st Dan Black Belt and I am planning to go for my seccond dan at the end of Year 11. I graded for my First Dan on the 7th of July this year.</p>
+			<h3>Here are some highlights</h3>
+			<h4>Group Photo</h4>
+			<img src="Group.JPG"style="max-width:100%;min-width:100%;">
+			<h4>Here is Me(On left)Master Thomas(Middle)And Miles(Right)</h4>
+			<img src="3.JPG"style="max-width:100%;min-width:100%;">
+			<h4>Axe kick</h4>
+			<img src="Axe.JPG" style="max-width:100%;min-width:100%;">
+			<h4>Spaing BackKick</h4>
+			<img src="Back kick.JPG" style="max-width:100%;min-width:100%;">
+			<h4>Video Of Break</h4>
+			<video style="max-width:100%;"  controls>
+ 			<source src="Break.MOV" >
+			Your browser does not support the video tag.
+			</video>
+			<h4>Slowmo Of Break</h4>
+			<video style="max-width:100%;" controls>
+ 			<source src="Slowmobreak.MOV" >
+			Your browser does not support the video tag.
+			</video>
+			<h4>Video of Axe</h4>
+			<video style="max-width:100%;"  controls>
+ 			<source src="Axe.mov" >
+			Your browser does not support the video tag.
+			</video>
+			<h4>Video of SideKick</h4>
+			<video style="max-width:100%;"  controls>
+ 			<source src="Sidekick.mov" >
+			Your browser does not support the video tag.
+			</video>
+			<h4>Receving Award</h4>
+			<video style="max-width:100%;"  controls>
+ 			<source src="Award.MOV" >
+			Your browser does not support the video tag.
+			</video>
+			<h4>Sparing</h4>
+			<video style="max-width:100%;"  controls>
+ 			<source src="Sparring.mov" >
+			Your browser does not support the video tag.
+			</video>
+			<h4>Poomsae Ko-Ryo</h4>
+			<video style="max-width:100%;"  controls>
+ 			<source src="Koryo.MOV" >
+			Your browser does not support the video tag.
+			</video>
+			<h4>Poomsae Chong-Moo</h4>
+			<video style="max-width:100%;"  controls>
+ 			<source src="Moo.MOV" >
+			Your browser does not support the video tag.
+			</video>
+		</div>
+		<div style="width:30%;float:right;display:block;1000px;"></div>
+		<!-- footer -->
+		<div style="width:100%;float:left;height:100px;"> </div>
+</body>
+</html>
